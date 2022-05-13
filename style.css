@@ -1,0 +1,124 @@
+h1{
+  position: absolute;
+  right: 42%;
+  top:4px;
+  color: gray;
+}
+body{
+  margin:0;
+  border-bottom: 1px solid #b8f8fb;
+}
+.main img{
+width:15%;
+margin:5px;
+}
+.main .hp{
+  position: absolute;
+  top:4px;
+  right: 20px;
+  font-size: 25px;
+}
+.main {
+  border-bottom: 1px solid #b8f8fb;
+  background-color: #b8f8fb;
+}
+#grid .jpmembergrid , .enmembergrid , .idmembergrid{
+  font-size: 15px;
+  padding-left: 20px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#grid .mainul{
+  /* border-right: 1px solid gray; */
+  width:100px;
+  margin:0;
+  padding: 20px;
+  padding-left: 33px;
+  font-size: 20px;
+  border-bottom: 5px solid #b8f8fb;
+}
+#grid ol{
+  padding-left: 10px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#article {
+  display: grid;
+  grid-template-rows: : 1fr 1fr 1fr;
+  margin-left: 3px;
+  font-size: 25px;
+  border-left: 5px solid #b8f8fb;
+}
+#article p{
+  border-bottom: 5px solid #b8f8fb;
+  margin: 0;
+}
+#article .img{
+  margin:0;
+  width: 70%;
+  padding-left: 80px;
+}
+/* jp 멤버 위 시즌 표시*/
+#article #jpzeroth , #jpfirsth , #jpsecond , #jpthird , #jpfourth , #jpfifth{
+  width: 70px;
+  background-color: #5882FA;
+}
+/* en 멤버 위 시즌 표시*/
+#article #enfirstmyth{
+  width: 140px;
+  background-color: #5882FA;
+}
+#article #ensecondcouncil{
+  width: 170px;
+  background-color: #5882FA;
+}
+#article #enfirsthope{
+  width: 220px;
+  background-color: #5882FA;
+}
+/* id 멤버 위 시즌 표시*/
+#article #idfirst , #idsecond , #idthird {
+  width: 70px;
+  background-color: #5882FA;
+}
+/* jp멤버들 소개 글*/
+#article .jpsecondexp strong , .jpthirdexp strong , .jpfirsthexp strong , .jpzeroexp strong , .jpgamersexp strong ,
+.jpfourthexp strong {
+  color: #0174DF;
+}
+/* en멤버들 소개 글*/
+#article .enfirstmythexp strong , .enfirsthopeexp strong , .ensecondcouncilexp strong {
+  color: #0174DF;
+}
+/* id멤버들 소개 글*/
+#article .idthirdexp strong {
+  color: #0174DF;
+}
+#article{
+  position: relative;
+  z-index: 1;
+}
+#article #jpgamers {
+  width: 200px;
+  background-color: #5882FA;
+}
+#article .rushia{
+  font-size: 15px;
+}
+#article::before{
+  content:"";
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9395dd24-13f6-40cc-be0b-4167cd95a6f5/dead1wa-9900d0bb-cf67-4bab-b10a-3e828443f02a.png/v1/fill/w_1280,h_720,q_80,strp/ninomae_inanis_hololive_en_wallpaper_by_nivkeroz_dead1wa-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvOTM5NWRkMjQtMTNmNi00MGNjLWJlMGItNDE2N2NkOTVhNmY1XC9kZWFkMXdhLTk5MDBkMGJiLWNmNjctNGJhYi1iMTBhLTNlODI4NDQzZjAyYS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.0xe9JnNkrp7me6tl0Bbb8K9WgIwKa7v3pg4R2qIHF-k');
+  background-repeat: repeat-y;
+  background-size: 112%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.15;
+}
