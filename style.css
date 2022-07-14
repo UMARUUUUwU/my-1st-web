@@ -1,22 +1,39 @@
 h1{
-  position: absolute;
-  right: 42%;
-  top:4px;
+  text-align: center;
   color: gray;
+  margin: 0;
+  background-color: #b8f8fb;
+  padding-top: 10px;
 }
 body{
   margin:0;
   border-bottom: 1px solid #b8f8fb;
 }
+@media(max-width:1000px){
 .main img{
-width:15%;
+width:20%;
 margin:5px;
+position: absolute;
+top: 0%;
+}
+}
+@media(min-width:1000px){
+  .main img{
+    width:200px;
+    margin:5px;
+    position: absolute;
+    top: 0%;
+  }
+}
+#night_day{
+  position: absolute;
+  top: 0%;
+  right: 0%;
 }
 .main .hp{
-  position: absolute;
-  top:4px;
-  right: 20px;
-  font-size: 25px;
+  text-align: right;
+  font-size: 15px;
+  margin: 0;
 }
 .main {
   border-bottom: 1px solid #b8f8fb;
@@ -67,6 +84,10 @@ a{
   width: 70px;
   background-color: #5882FA;
 }
+#article #jpsixth {
+  width: 135px;
+  background-color: #5882FA;
+}
 /* en 멤버 위 시즌 표시*/
 #article #enfirstmyth{
   width: 140px;
@@ -87,7 +108,7 @@ a{
 }
 /* jp멤버들 소개 글*/
 #article .jpsecondexp strong , .jpthirdexp strong , .jpfirsthexp strong , .jpzeroexp strong , .jpgamersexp strong ,
-.jpfourthexp strong {
+.jpfourthexp strong , .jp5thexp strong , .jp6thexp strong  {
   color: #0174DF;
 }
 /* en멤버들 소개 글*/
@@ -121,4 +142,7 @@ a{
   bottom: 0;
   z-index: -1;
   opacity: 0.15;
+}
+#jpzeroth img{
+
 }
